@@ -86,8 +86,8 @@ while (survivingSpecimen.length < 30) {
   }
   idCounter++;
 }
-
-console.log(survivingSpecimen)
+console.log(survivingSpecimen[1]);
+console.log(survivingSpecimen[1].complementStrand());
 
 /*
 const creature1 = pAequorFactory(1, [
